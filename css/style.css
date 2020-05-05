@@ -557,7 +557,7 @@ footer {
 	@media all and (max-width: 767.9px) {
 		.kaart {
 			
-			width: 90%;
+			width: 90vw;
 			flex-direction: column;
 			height: auto;
 		}
