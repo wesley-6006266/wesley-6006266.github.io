@@ -288,14 +288,9 @@ abbr {
 .kaart-tekst a {
 	color: white;
 }
-
-abbr[title]::after {
-  content: attr(title);
-}
-
 abbr[title]:hover::after,
 abbr[title]:focus::after {
-	content: attr(title);
+  content: attr(title);
 }
 
 .kaart-tekst h3 {
