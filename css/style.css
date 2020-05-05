@@ -210,7 +210,7 @@ main {
 .kaart{
 	position: relative;
 	height: 250px;
-	background: #000;
+	background: #222;
 	display: flex;
 	width: 45%;
 	margin: 30px -20px;
@@ -281,7 +281,7 @@ abbr {
 	justify-content: center;
 	flex-direction: column;
 	text-align: left;
-	background-color: black;
+	background-color: #222;
 	color: white;
 }
 
