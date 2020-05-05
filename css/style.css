@@ -281,6 +281,8 @@ abbr {
 	justify-content: center;
 	flex-direction: column;
 	text-align: left;
+	background-color: black;
+	color: white;
 }
 
 .kaart-tekst h3 {
