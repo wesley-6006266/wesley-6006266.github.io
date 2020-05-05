@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="language" content="NL">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+<!--NIET VERGETEN!!!-->
+    <title>Portfolio | Webs-Design</title>
+<!--NIET VERGETEN!!!-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/script.js"></script>
+	<script src="js/blocks.js"></script>
+</head>
+<body>
+<header>
+	<section class="contact-header"><p><img src="img/mail-16.png" alt="email-icoon"/><a href="mailto:6006266@mborijnland.nl">6006266@mborijnland.nl</a></p></section>
+	<section class="header-container">
+		<a href="index.html"><img class="logo" src="img/websdesign-logo.png" alt="logo"></a>
+		<nav>
+			<div id="nav">
+			<ul id="nav-ul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Over mij</a></li>
+				<li><a href="portfolio.html" class="a-active" >Portfolio</a></li>
+				<li><a id="last" href="contact.html">Contact</a></li>
+			</ul></div>
+			<section onclick="hamburgerMenu()" id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</section>
+		</nav>
+	</section>
+</header>
+<main>
+	<i id="arrow" class="fa fa-arrow-left" onClick="hide()"></i>
+	<section id="socials">
+		<a class="socials-a" id="facebook" href="https://www.facebook.com/wesley.schellingerhoudt/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+		<a class="socials-a" id="linkedin" href="https://www.linkedin.com/in/wesley-schellingerhoudt-3677b0129/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		<a class="socials-a" id="whatsapp" href="http://wa.me/31636439415" target="_blank"><i class="fa fa-whatsapp"></i></a>
+		<a class="socials-a" id="mail" href="mailto:6006266@mborijnland.nl"><i class="fa fa-envelope"></i></a>
+	</section>
+	<section class="main-container" id="portfolio">
+		<h1>Mijn gemaakte werken</h1>
+		<p class="portfolio-p"> Onderstaande video is van de website 'autoverhuur bob', gemaakt voor het vak Start-up. <br>
+			Dit vind ik een van mijn mooiste websites, op mijn portfolio website na.</p>
+		<section class="bob">
+			<video id="video-bob" muted src="img/autoverhuur-bob.mp4" autoplay ></video>
+		</section>
+		<p class="portfolio-p">Onderstaande game is de eerste game die ik gemaakt heb en waar ik ook de meeste plezier in heb gehad.<br>
+		Veel plezier met spelen. (helaas niet op tablet/telefoon te spelen!)</p>
+		<img src="img/blocks.png" id="blocks-img" alt="Foto van de blocks game"/>
+		<section class="blocks">
+			<canvas id="myCanvas" style="font-family: Righteous">Deze game wordt niet ondersteund door uw browser...	</canvas>
+		</section>
+		
+	</section>
+</main>
+<footer>
+	<section class="footer-container"><h2 class="footer-tekst">© Webs-Design</h2></section>
+</footer>
+</body>
+</html>

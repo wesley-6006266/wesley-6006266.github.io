@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="language" content="NL">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+<!--NIET VERGETEN!!!-->
+    <title>Contact | Webs-Design</title>
+<!--NIET VERGETEN!!!-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+<header>
+	<section class="contact-header"><p><img src="img/mail-16.png" alt="email-icoon"/><a href="mailto:6006266@mborijnland.nl">6006266@mborijnland.nl</a></p></section>
+	<section class="header-container">
+		<a href="index.html"><img class="logo" src="img/websdesign-logo.png" alt="logo"></a>
+		<nav>
+			<div id="nav">
+			<ul id="nav-ul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">Over mij</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a id="last" href="contact.html" class="a-active" >Contact</a></li>
+			</ul></div>
+			<section onclick="hamburgerMenu()" id="hamburger">
+				<span></span>
+				<span></span>
+				<span></span>
+			</section>
+		</nav>
+	</section>
+</header>
+<main>
+	<i id="arrow" class="fa fa-arrow-left" onClick="hide()"></i>
+	<section id="socials">
+		<a class="socials-a" id="facebook" href="https://www.facebook.com/wesley.schellingerhoudt/" target="_blank"><i class="fa fa-facebook-f"></i></a>
+		<a class="socials-a" id="linkedin" href="https://www.linkedin.com/in/wesley-schellingerhoudt-3677b0129/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		<a class="socials-a" id="whatsapp" href="http://wa.me/31636439415" target="_blank"><i class="fa fa-whatsapp"></i></a>
+		<a class="socials-a" id="mail" href="mailto:6006266@mborijnland.nl"><i class="fa fa-envelope"></i></a>
+	</section>
+	<section class="main-container" id="contact">
+			<h1 class="contact-titel">Contact</h1>
+		<section class="contact-container">
+			<section class="form-container" >
+				<form action="mailto:6006266@mborijnland.nl" method="GET" id="form">
+					<h1 class="form-h1">Bericht</h1>
+					<p class="form-p">Uw e-mailadres</p>
+					<input name="cc" id="cc" placeholder="e-mail" type="text">
+					<p class="form-p">Onderwerp van uw bericht</p>
+					<input name="subject" placeholder="onderwerp" id="subject" type="text">
+					<p class="form-p">Uw bericht</p>
+					<textarea name="body" id="body" placeholder="Uw bericht"></textarea>
+					<button type="submit" value="Create Email" >Verstuur bericht</button>
+				</form>
+			</section>
+			<section class="maps-container">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2450.2124438302285!2d4.644498315333387!3d52.11226327411879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5da90cef08cfb%3A0xd514fc6e79f7d0a1!2sNorbertijnenlaan%2078%2C%202408%20KK%20Alphen%20aan%20den%20Rijn!5e0!3m2!1snl!2snl!4v1586270390139!5m2!1snl!2snl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</section>
+		</section>
+	</section>
+</main>
+<footer>
+	<section class="footer-container"><h2 class="footer-tekst">© Webs-Design</h2></section>
+</footer>
+</body>
+</html>
